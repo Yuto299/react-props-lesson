@@ -4,6 +4,7 @@ import contacts from "./Contacts";
 
 function App() {
   return (
+    // 配列から一つづつ抜き出してpropsに渡している
     <div>
       <h1 className="heading">My Contacts</h1>
       <Card

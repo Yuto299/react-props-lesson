@@ -1,4 +1,5 @@
 const Card = (props) => {
+  // 渡せるように準備をしておく（実際に渡して画面に表示させるのはApp.jsx）
   return (
     <div>
       <div className="card">
