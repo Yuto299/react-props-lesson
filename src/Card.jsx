@@ -1,3 +1,5 @@
+import Avatar from "./Avatar";
+
 const Card = (props) => {
   // 渡せるように準備をしておく（実際に渡して画面に表示させるのはApp.jsx）
   return (
@@ -5,7 +7,7 @@ const Card = (props) => {
       <div className="card">
         <div className="top">
           <h2 className="name">{props.name}</h2>
-          <img className="circle-img" src={props.imgURL} alt="avatar_img" />
+          <Avatar imgURL={props.imgURL} />
         </div>
         <div className="bottom">
           <p className="info">{props.phone}</p>
