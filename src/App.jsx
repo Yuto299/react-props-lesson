@@ -30,3 +30,9 @@ function App() {
 }
 
 export default App;
+
+// まとめると
+// 1.	Contacts.js → 配列データを用意
+// 2.	App.jsx → 配列から1つずつ取り出して <Card> に渡す
+// 3.	Card.jsx → props を受け取って実際のタグに変換
+// 4.	ブラウザ → 3人分の連絡先カードが表示される
