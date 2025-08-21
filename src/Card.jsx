@@ -1,4 +1,6 @@
 import Avatar from "./Avatar";
+import Email from "./Email";
+import Phone from "./Phone";
 
 const Card = (props) => {
   // 渡せるように準備をしておく（実際に渡して画面に表示させるのはApp.jsx）
@@ -10,8 +12,8 @@ const Card = (props) => {
           <Avatar imgURL={props.imgURL} />
         </div>
         <div className="bottom">
-          <p className="info">{props.phone}</p>
-          <p className="info">{props.email}</p>
+          <Phone phone={props.phone} />
+          <Email email={props.email} />
         </div>
       </div>
     </div>

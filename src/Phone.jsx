@@ -1,5 +1,9 @@
-const Phone = () => {
-  return <div>Phone</div>;
+const Phone = (props) => {
+  return (
+    <div>
+      <p className="info">{props.phone}</p>
+    </div>
+  );
 };
 
 export default Phone;
