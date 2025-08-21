@@ -12,7 +12,7 @@ const Card = (props) => {
           <Avatar imgURL={props.imgURL} />
         </div>
         <div className="bottom">
-          <Phone phone={props.phone} />
+          <Phone tel={props.tel} />
           <Email email={props.email} />
         </div>
       </div>
