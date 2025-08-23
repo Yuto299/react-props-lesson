@@ -8,6 +8,7 @@ const Card = (props) => {
     <div>
       <div className="card">
         <div className="top">
+          <p>{props.id}</p>
           <h2 className="name">{props.name}</h2>
           <Avatar img={props.img} />
         </div>
